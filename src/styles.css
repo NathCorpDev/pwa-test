@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: #eeeeee;
+}
+
+@media (min-width:"768px") {
+    .questionnaire {
+        width: 600px !important;
+        background: #ffffff !important;
+        padding: 20px 30px !important;
+        margin: 50px auto !important;
+    }
+}
