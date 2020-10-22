@@ -24,7 +24,7 @@
     width: 100%;
     height: 80px;
     background: #ffffff;
-    display: none;
+    display: block;
 }
 
 @media only screen and (max-width: 600px) {

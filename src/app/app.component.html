@@ -84,7 +84,7 @@
   </div>
 </nav>
 
-<section id="addToHomeScreen">
+<section *ngIf="!isPWAInstalled && deviceWidth<600" id="addToHomeScreen">
   <div class="container d-inline">
     <button (click)="showOverlay()" type="button" class="btn btn-primary">Add Shortcut</button>
   </div>
